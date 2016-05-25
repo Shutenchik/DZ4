@@ -5,10 +5,8 @@
 
 body {
 	width: 1350px;
-	height: 1320px;
 	margin: 0 auto;
-	/*background-image: url(../img/bg.jpg);
-    background-repeat: no-repeat;*/
+	
 }
 /* ДЕЛАЕМ HEADER */
 .bg {
@@ -30,17 +28,20 @@ body {
 	background-repeat: no-repeat;*/
 }
 .logo {
-	margin: 10px 65px;
+	width: 290px;
+	height: 175px;;
+	position: relative;
+	top: 15px;
+	left: 65px;;
 }
 .slogan {
 	position: absolute;
-	left: 120px;
-	top: 115px;
+	left: 48px;
+	top: 91px;
 	color: #51a9be;
 	font-family: sans-serif;
 }
 .contact {
-	margin: 5px 10px;
 	position: absolute;
 	right: 35px;
 	color: #4ea8bd;
@@ -49,36 +50,35 @@ body {
 }
 .contact li {
 	list-style: none;
-	line-height: 20px;
+	line-height: 17px;
+	font-size: 13px;
 }
 .contact li:first-child {
 	font-weight: bold;
-	line-height: 37px;
+	line-height: 32px;
 }
 .flag {
-	margin: 5px 10px;
 	position: absolute;
-	right: 30px;
-	top: 105px;
+	right: 33px;
+	top: 98px;
 }
 .flag li {
 	display: inline-block;
 	width: 40px;
-	margin: 8px;
+	padding: 8px;
 	
 }
 .country {
-	margin: 5px 10px;
 	position: absolute;
-	right: 33px;
-	top: 160px;
+	right: 25px;
+	top: 155px;
 }
 .country li {
-	margin: 1px 3px;
 	float: right;
 	list-style: none;
-	font-size: 9px;
-	width: 50px;
+	font-size: 10px;
+	width: 53px;
+	margin: 1px 3px;
 }
 .country a {
 	color: #4ea8bd;
@@ -105,25 +105,25 @@ body {
 	box-shadow: 1px 4px 10px #333333;
 }
 .menu li {
-	margin: 2px 20px;
 	display: inline-block;
-	padding: 4px;
+	padding: 3px 7px;
 	list-style: none;
 	font-family: sans-serif;
 	font-size: 15px;
+	margin: 2px 20px;
 
 }
 .menu a {
-	text-decoration: none;
 	color: white;
+	text-decoration: none;
 	font-size: 15px;
-	height: 23px;
-	padding: 5px;
 }
 
-.menu a:hover {
+.menu li:hover {
 	color: white;
 	background-color: #1E1B12;
+	height: 20px;
+
 }
 
 /*Создание ВСПЛЫВАЮЩЕГО МЕНЮ*/
@@ -131,9 +131,9 @@ body {
  	display: none;
 	position: absolute;
 	z-index: 1;
-	top: 28px;
+	top: 29px;
 	left: 187px;
-	 width: 190px;
+	 width: 188px;
 	background-color: #333333;
 	box-shadow: 1px 7px 10px #333333;
 
@@ -141,16 +141,15 @@ body {
 
 .submenu  li {
     display: block;
-    padding: 6px;
-   
-}
- .submenu li a {
-	padding: 8px;
-	
+    height: 20px;
+  	width: 110px;
 	color: white;
-	/*background-color: #333333;*/
 	text-decoration: none;
+    padding: 3px 15px;
 }
+/* .submenu li  {
+	
+}*/
 .menu li:hover .submenu {
     display: block;
 }
@@ -162,6 +161,12 @@ body {
 	width: 150px;
 	background-color: #333333;
 	box-shadow: 1px 7px 10px #333333;
+}
+.submenu1  li:hover {
+	width: 75px;
+}
+.submenu2 li:hover {
+	width: 85px;
 }
 .submenu2 {
  	display: none;
@@ -180,9 +185,11 @@ body {
 /*СОЗДАНИЕ CONTENTA*/
 .content {
 	width: 1000px;
-	height: 530px;
-	margin: 41px 151px;
+	height: 540px;
+	/*margin: 41px 151px;*/
 	position: relative;
+	top: 25px;
+	left: 151px;
 	clear: both;
 }
 /*СОЗДАНИЕ ОДИНАКОВЫХ КОЛОНОК */
@@ -197,7 +204,7 @@ body {
 .sidebar1{
 	width: 210px;
 	padding: 10px;
-	padding-bottom: 344px;
+	padding-bottom: 20000px;
 	margin-bottom: -20000px;
 	font-family: sans-serif;
 	font-size: 16px;
@@ -220,10 +227,11 @@ body {
 	text-align: center;
 }
 .footer{
-	width: 450px;
+	width: 240px;
 	position: absolute;
 	left: 360px;
-	top: 529px;
+	top: 548px;
 	font-family: sans-serif;
 	font-size: 13px;
+	color: white;
 }
